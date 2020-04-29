@@ -15,9 +15,9 @@
 run.sh      | File thực thi                           
 os.jar      | File đóng gói chương trình              
 
-### Chú thích chi tiết mã nguồn:
+### Chi tiết cây mã nguồn:
 Đường dẫn                               | Mô tả                               
 ----------------------------------------|--------------------------------------------------
 /code/OS/src/org/censo/dev/distributors | Code xử lí chính phần lập lịch CPU                
 /code/OS/src/org/censo/dev/paginators   | Code xử lí chính phần thay trang bộ nhớ ảo        
-/code/OS/src/org/censo/dev/common        | Các thành phần tái sử dụng (I/O, vẽ biểu đồ, ...)
+/code/OS/src/org/censo/dev/common       | Các thành phần tái sử dụng (I/O, vẽ biểu đồ, ...)
