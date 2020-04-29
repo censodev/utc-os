@@ -1,0 +1,27 @@
+[
+	{
+		"id": 1,
+		"start": 0,
+		"duration": 7
+	},
+	{
+		"id": 2,
+		"start": 2,
+		"duration": 4
+	},
+	{
+		"id": 3,
+		"start": 4,
+		"duration": 1
+	},
+	{
+		"id": 4,
+		"start": 5,
+		"duration": 4
+	},
+	{
+		"id": 5,
+		"start": 6,
+		"duration": 1
+	}
+]
