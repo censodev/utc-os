@@ -34,7 +34,7 @@ public class ShortestRemainingNext extends AbstractDistributor implements Distri
                     GanttProcess ganttProcess = new GanttProcess();
                     ganttProcess.setId(chosenProcess.getId());
                     ganttProcess.setDuration(nextProcess.getStart() - chosenProcess.getStart());
-                    graphGantt.add(ganttProcess);
+//                    graphGantt.add(ganttProcess);
 
                     chosenProcess.setDuration(chosenProcess.getDuration() - ganttProcess.getDuration());
 //                    chosenProcess.setStart();
@@ -43,13 +43,13 @@ public class ShortestRemainingNext extends AbstractDistributor implements Distri
                     GanttProcess ganttProcess = new GanttProcess();
                     ganttProcess.setId(chosenProcess.getId());
                     ganttProcess.setDuration(chosenProcess.getDuration());
-                    graphGantt.add(ganttProcess);
+//                    graphGantt.add(ganttProcess);
                 }
             } else {
                 GanttProcess ganttProcess = new GanttProcess();
                 ganttProcess.setId(chosenProcess.getId());
                 ganttProcess.setDuration(chosenProcess.getDuration());
-                graphGantt.add(ganttProcess);
+//                graphGantt.add(ganttProcess);
             }
 
         }

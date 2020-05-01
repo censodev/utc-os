@@ -34,7 +34,7 @@ public class FirstComeFirstServe extends AbstractDistributor implements Distribu
 
 			// Khi đẩy vào Gantt Graph, tự tính toán lại thời gian chờ của mỗi tiến trình được đẩy và thời gian chờ trung bình
 			// Chi tiết trong class GanttGraph
-			graphGantt.add(prcGantt);
+			graphGantt.add(prcGantt, prc.getStart());
 		}
 	}
 }

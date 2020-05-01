@@ -7,18 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b1d27fb-836d-4d8d-9382-4e941462bc79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/OS_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/FCFS.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/SJN.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/FCFS.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/SJN.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/censo/dev/Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/censo/dev/Startup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/censo/dev/common/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/censo/dev/common/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/FCFS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/FCFS.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/FIFO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/FIFO.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/LRU.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/LRU.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/NRU.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/NRU.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/SJN.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/SJN.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cpu.input.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cpu.input.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/paging.input.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/paging.input.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/censo/dev/common/GanttGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/censo/dev/common/GanttGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/censo/dev/common/PageMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/censo/dev/common/PageMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/censo/dev/distributors/AbstractDistributor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/censo/dev/distributors/AbstractDistributor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/censo/dev/distributors/FirstComeFirstServe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/censo/dev/distributors/FirstComeFirstServe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/censo/dev/distributors/ShortestJobNext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/censo/dev/distributors/ShortestJobNext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/censo/dev/distributors/ShortestRemainingNext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/censo/dev/distributors/ShortestRemainingNext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../os.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../os.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../resources/FCFS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../resources/FCFS.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../resources/FIFO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../resources/FIFO.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../resources/LRU.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../resources/LRU.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../resources/NRU.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../resources/NRU.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../resources/SJN.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../resources/SJN.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../resources/cpu.input.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../resources/cpu.input.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../resources/paging.input.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../resources/paging.input.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,10 +43,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1aDk9oQpFNKdb61FhtPWeTBFWnH" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">

@@ -34,7 +34,7 @@ public class ShortestJobNext extends AbstractDistributor implements Distributor 
 			GanttProcess prcGantt = new GanttProcess();
 			prcGantt.setId(process.getId());
 			prcGantt.setDuration(process.getDuration());
-			graphGantt.add(prcGantt);
+			graphGantt.add(prcGantt, process.getStart());
 		}
 	}
 }
