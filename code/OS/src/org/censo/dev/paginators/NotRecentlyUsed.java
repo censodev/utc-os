@@ -65,7 +65,10 @@ public class NotRecentlyUsed {
                         // lấy vị trí tiến trình đang xét trong phần còn lại của queue
                         int indexInQueue = tmpList.indexOf(inMemoryPrc);
                         // so sánh vị trí trên với cờ, nếu > cờ thì có độ ưu tiên thấp hơn
-                        flagInList = indexInQueue > flagInQueue ? indexOfInMemoryPrc : flagInList;
+                        if (indexInQueue > flagInQueue) {
+                            flagInList = indexOfInMemoryPrc;
+                            flagInQueue = indexInQueue;
+                        }
                     }
                     else {
                         // nếu đã không tồn tại trong phần còn lại của queue thì coi như chắc chắn bị thay thế
