@@ -35,6 +35,7 @@ public class GanttGraph {
 	public void add(GanttProcess ganttProcess, int startTime) {
 		// Thời gian đợi của tiến trình sẽ là tổng thời gian chạy các tiến trình trước nó
 		ganttProcess.setWait(totalProcessDuration - startTime);
+		ganttProcess.setStart(totalProcessDuration);
 		graph.add(ganttProcess);
 		totalProcessDuration += ganttProcess.getDuration();
 
@@ -68,7 +69,7 @@ public class GanttGraph {
 
 			for (GanttProcess p : graph) {
 				stringLine.append(String.format("P%d%4s|", p.getId(), ""));
-				intLine.append(p.getWait() >= 10 ? String.format("%d%5s", p.getWait(), "") : String.format("%d%6s", p.getWait(), ""));
+				intLine.append(p.getStart() >= 10 ? String.format("%d%5s", p.getStart(), "") : String.format("%d%6s", p.getStart(), ""));
 			}
 
 			intLine.append(totalProcessDuration);
